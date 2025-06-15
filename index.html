@@ -2,14 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Área del Cuadrado</title>
+  <title>Áreas: Cuadrado y Triángulo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <h1>Área del Cuadrado</h1>
-    <input type="number" id="lado" placeholder="Ingresa el lado del cuadrado">
-    <button onclick="calcularArea()">Calcular</button>
+    <input type="number" id="lado" placeholder="Lado del cuadrado">
+    <button onclick="calcularAreaCuadrado()">Calcular Cuadrado</button>
+
+    <hr>
+
+    <h1>Área del Triángulo</h1>
+    <input type="number" id="base" placeholder="Base del triángulo">
+    <input type="number" id="altura" placeholder="Altura del triángulo">
+    <button onclick="calcularAreaTriangulo()">Calcular Triángulo</button>
+
     <p id="resultado"></p>
   </div>
 
